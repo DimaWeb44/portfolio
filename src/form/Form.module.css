@@ -1,9 +1,8 @@
-.skillsBlock {
-    min-height: 100vh;
+.formBlock {
     background-color: #afafc2;
 }
 
-.skillsContainer {
+.formContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -12,10 +11,11 @@
     background-color: #af9ec2;
 }
 
-.skills {
+.form {
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
 }
