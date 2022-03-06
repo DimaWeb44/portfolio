@@ -15,6 +15,12 @@ function Skills() {
                   'and typesetting industry.'}/>
                   <Skill title={'JavaScript'} description={'Lorem Ipsum  printing ' +
                   'and typesetting industry. Lorem Ipsum has been the industrys standard'}/>
+                  <Skill title={'Redux'} description={'Lorem Ipsum  printing ' +
+                  'and typesetting industry. Lorem Ipsum has been the industrys standard'}/>
+                  <Skill title={'HTML'} description={'Lorem Ipsum  printing ' +
+                  'and typesetting industry. Lorem Ipsum has been the industrys standard'}/>
+                  <Skill title={'CSS'} description={'Lorem Ipsum  printing ' +
+                  'and typesetting industry. Lorem Ipsum has been the industrys standard'}/>
               </div>
           </div>
         </div>

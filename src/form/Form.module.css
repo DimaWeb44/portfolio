@@ -1,5 +1,6 @@
 .formBlock {
     background-color: #afafc2;
+    margin: 100px 0;
 }
 
 .formContainer {
@@ -18,4 +19,19 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+}
+
+input, textarea{
+    padding:10px;
+    margin:10px 0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    resize: vertical;
+}
+
+@media  (max-width: 1130px) {
+    .formBlock {
+        margin: 50px 0;
+    }
+
 }

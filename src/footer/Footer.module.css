@@ -18,15 +18,23 @@
 
 .socialNetworks {
     border: 1px solid;
-    width: 40%;
+    width: 40vm;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
 }
 
 .socialNetworkIcon {
-    height: 40px;
-    width: 40px;
+    height: 25px;
+    width: 25px;
     background-color: #4268b0;
+    position: static;
+    margin: 5px;
 }
+

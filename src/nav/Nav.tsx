@@ -3,6 +3,7 @@ import style from './Nav.module.css';
 
 function Nav() {
     return (
+
         <div className={style.nav}>
             <a href={''}>Главная</a>
             <a href={''}>Скиллы</a>

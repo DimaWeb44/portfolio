@@ -18,3 +18,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media (max-width: 1130px) {
+    .projects {
+        justify-content: space-around;
+    }
+
+}

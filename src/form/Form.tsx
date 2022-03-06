@@ -8,11 +8,9 @@ function Form() {
             <div className={`${styleContainer.container} ${style.formContainer}`}>
                 <h2 className={style.title}>CONTACT</h2>
                     <form action="" method="get" className={style.form}>
-                        <label htmlFor="name">Enter your name: </label>
-                        <input type={"text"} required/>
-                        <label htmlFor="email">Enter your email: </label>
-                        <input type={"email"}/>
-                        <textarea/>
+                        <input type={"text"} placeholder={'Name'} required/>
+                        <input type={"email"} placeholder={'email'}/>
+                        <textarea placeholder={'Text'}/>
                         <input type="submit" value="Send"/>
                     </form>
                 </div>

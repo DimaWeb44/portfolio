@@ -7,7 +7,7 @@ function Footer() {
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <div className={style.footer}>
-                <h2 className={style.title}>Dmitry Petukhov</h2>
+                    <h2 className={style.title}>Dmitry Petukhov</h2>
                     <div className={style.socialNetworks}>
                         <div className={style.socialNetworkIcon}></div>
                         <div className={style.socialNetworkIcon}></div>

@@ -9,3 +9,9 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 815px) {
+    .container {
+        width: 90%;
+        justify-content: center;
+    }
+}
