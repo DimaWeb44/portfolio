@@ -11,7 +11,7 @@ function Form() {
                         <input type={"text"} placeholder={'Name'} required/>
                         <input type={"email"} placeholder={'email'}/>
                         <textarea placeholder={'Text'}/>
-                        <input type="submit" value="Send"/>
+                        <button type="submit">Send</button>
                     </form>
                 </div>
             </div>

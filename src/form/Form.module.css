@@ -21,7 +21,7 @@
     flex-wrap: wrap;
 }
 
-input, textarea{
+.form input, .form textarea{
     padding:10px;
     margin:10px 0;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
