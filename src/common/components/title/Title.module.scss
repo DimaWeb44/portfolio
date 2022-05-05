@@ -1,8 +1,7 @@
 .title {
-    margin: 0 0 30px;
-}
+  margin: 0 0 30px;
 
-.title h2 {
+  h2 {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
@@ -12,16 +11,20 @@
     line-height: 1.2;
     letter-spacing: 5px;
     position: relative;
-}
+  }
 
-.title h2::before {
+  & h2::before {
     position: absolute;
     content: "";
     background: #4e93e6;
     width: 55px;
     height: 1px;
-    bottom: -30px;
+    bottom: -20px;
     left: 50%;
     transform: translate(-50%, 50%);
+  }
 }
+
+
+
 

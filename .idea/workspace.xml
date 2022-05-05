@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade">
-      <change afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/components/title/Title.tsx" afterDir="false" />
+    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade2">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/look.com.ua-191288.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/look.com.ua-200911.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/wariables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projects/project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/components/title" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/styles/sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it-incubator\portfolio\src\common\styles\sass" />
       <recent name="D:\it-incubator\portfolio\src\common\components\title" />
       <recent name="D:\it-incubator\portfolio\src\footer" />
       <recent name="D:\it-incubator\portfolio\src\form" />
       <recent name="D:\it-incubator\portfolio\src\projects\project" />
-      <recent name="D:\it-incubator\portfolio\src\projects" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -111,7 +118,8 @@
       <workItem from="1646553458273" duration="15016000" />
       <workItem from="1646569717658" duration="15835000" />
       <workItem from="1651605022714" duration="2235000" />
-      <workItem from="1651683155084" duration="7398000" />
+      <workItem from="1651683155084" duration="7602000" />
+      <workItem from="1651771978370" duration="8238000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646332300520</created>
@@ -155,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646584442266</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="upgrade2">
+      <created>1651690771991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651690771991</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +210,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="upgrade" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade" />
+    <MESSAGE value="upgrade2" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade2" />
   </component>
 </project>
