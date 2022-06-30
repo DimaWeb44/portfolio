@@ -1,5 +1,7 @@
+@import "../common/styles/sass/variables";
+
 .projectsBlock {
-  background-color: #1f1f20;
+  background-color: $bgColor;
   padding: 100px;
 
   .projectsContainer {

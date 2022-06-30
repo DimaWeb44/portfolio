@@ -1,0 +1,13 @@
+@import "../common/styles/sass/variables.scss";
+@import "../common/styles/sass/mixins.scss";
+
+.nav{
+    width: 300px;
+    @include flex(row, space-between, center, nowrap);
+    a{
+        @include text($TextFontFamily, 14px, 1.2, 300);
+        color: $textColor;
+        text-decoration: none;
+    }
+
+}

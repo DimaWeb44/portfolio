@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade2">
-      <change afterPath="$PROJECT_DIR$/src/assets/image/look.com.ua-191288.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/image/look.com.ua-200911.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/wariables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/project/Project.module.scss" afterDir="false" />
+    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade3">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/DSC02044.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/Container.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/wariables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="25t2MTLpe72JLiYlrpKlkwYvklO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -119,7 +129,11 @@
       <workItem from="1646569717658" duration="15835000" />
       <workItem from="1651605022714" duration="2235000" />
       <workItem from="1651683155084" duration="7602000" />
-      <workItem from="1651771978370" duration="8238000" />
+      <workItem from="1651771978370" duration="8535000" />
+      <workItem from="1651949823880" duration="1623000" />
+      <workItem from="1653323665712" duration="882000" />
+      <workItem from="1653410606253" duration="81000" />
+      <workItem from="1656601187433" duration="22694000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646332300520</created>
@@ -170,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651690771991</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="upgrade3">
+      <created>1651780558121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651780558121</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +232,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="upgrade" />
     <MESSAGE value="upgrade2" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade2" />
+    <MESSAGE value="upgrade3" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade3" />
   </component>
 </project>
