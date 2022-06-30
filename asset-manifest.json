@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0667ebf4.css",
-    "main.js": "/portfolio/static/js/main.e3a8c035.js",
+    "main.css": "/portfolio/static/css/main.6471a294.css",
+    "main.js": "/portfolio/static/js/main.639829ad.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/DSC02044.jpg": "/portfolio/static/media/DSC02044.605c79f8faeca47abf5e.jpg",
+    "static/media/look.com.ua-200911.jpg": "/portfolio/static/media/look.com.ua-200911.1ca94b66c6a27aaeda5b.jpg",
+    "static/media/look.com.ua-191288.jpg": "/portfolio/static/media/look.com.ua-191288.ee3f588bd877312f656b.jpg",
     "index.html": "/portfolio/index.html",
-    "main.0667ebf4.css.map": "/portfolio/static/css/main.0667ebf4.css.map",
-    "main.e3a8c035.js.map": "/portfolio/static/js/main.e3a8c035.js.map",
+    "main.6471a294.css.map": "/portfolio/static/css/main.6471a294.css.map",
+    "main.639829ad.js.map": "/portfolio/static/js/main.639829ad.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0667ebf4.css",
-    "static/js/main.e3a8c035.js"
+    "static/css/main.6471a294.css",
+    "static/js/main.639829ad.js"
   ]
 }
