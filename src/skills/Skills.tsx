@@ -1,27 +1,37 @@
 import React from 'react';
-import style from './Skills.module.css';
-import styleContainer from '../common/styles/Container.module.css'
+import style from './Skills.module.scss';
 import Skill from "./skill/Skill";
 import Title from '../common/components/title/Title';
+import {
+    SiCss3,
+    SiDiagramsdotnet, SiGit, SiHtml5, SiJavascript, SiMaterialui, SiPostman, SiReact, SiRedux,
+    SiSpeedtest, SiStorybook, SiTypescript
+} from 'react-icons/si';
+
+const Fade = require("react-reveal/Fade");
 
 function Skills() {
     return (
-        <div className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title title={'Skills'}/>
+        <div id="skills" className={style.skillsBlock}>
+            <div className={style.skillsContainer}>
+                <Fade left>
+                    <Title title={'Skills'}/>
+                </Fade>
                 <div className={style.skills}>
-                    <Skill title={'React'} description={'Lorem Ipsum is simply dummy text of the printing ' +
-                    'and typesetting industrys standard'}/>
-                    <Skill title={'TypeScript'} description={'Lorem Ipsum is simply dummy text of the printing ' +
-                    'and typesetting industry.'}/>
-                    <Skill title={'JavaScript'} description={'Lorem Ipsum  printing ' +
-                    'and typesetting industry. Lorem Ipsum has been the industrys standard'}/>
-                    <Skill title={'Redux'} description={'Lorem Ipsum  printing ' +
-                    'and typesetting industry. Lorem Ipsum has been the industrys standard'}/>
-                    <Skill title={'HTML'} description={'Lorem Ipsum  printing ' +
-                    'and typesetting industry. Lorem Ipsum has been the industrys standard'}/>
-                    <Skill title={'CSS'} description={'Lorem Ipsum  printing ' +
-                    'and typesetting industry. Lorem Ipsum has been the industrys standard'}/>
+                    <Fade right>
+                            <Skill title={'React'} skill={<SiReact/>}/>
+                            <Skill title={'Redux'} skill={<SiRedux/>}/>
+                            <Skill title={'TypeScript'} skill={<SiTypescript/>}/>
+                            <Skill title={'JavaScript'} skill={<SiJavascript/>}/>
+                            <Skill title={'HTML'} skill={<SiHtml5/>}/>
+                            <Skill title={'CSS'} skill={<SiCss3/>}/>
+                            <Skill title={'REST API'} skill={<SiDiagramsdotnet/>}/>
+                            <Skill title={'Unit testing'} skill={<SiSpeedtest/>}/>
+                            <Skill title={'StoryBook'} skill={<SiStorybook/>}/>
+                            <Skill title={'Postman'} skill={<SiPostman/>}/>
+                            <Skill title={'Material-UI'} skill={<SiMaterialui/>}/>
+                            <Skill title={'Git'} skill={<SiGit/>}/>
+                    </Fade>
                 </div>
             </div>
         </div>

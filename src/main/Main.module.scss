@@ -2,11 +2,19 @@
 @import "../common/styles/sass/mixins";
 
 .mainBlock {
-  background-color: $bgSecondColor;
+  position: relative;
   min-height: 100vh;
   @include flex(row, center, center, nowrap);
   padding: 100px 0;
-
+  .tsparticles{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+  }
   .container {
     @include container();
     @include flex(row, space-around, center, wrap);
@@ -17,6 +25,7 @@
       span {
         font-size: 16px;
         color: $textColor;
+        z-index: 0;
         &:nth-child(2) {
           @include text($TitleFontFamily, 50px, 1.2, 700);
           letter-spacing: 5px;
@@ -28,6 +37,7 @@
             position: relative;
             z-index: 0;
             display: inline-block;
+
             &::before {
               content: "";
               position: absolute;
@@ -44,6 +54,7 @@
       h1 {
         @include text($TextFontFamily, 28px, 1.8, 400);
         margin: 0;
+        z-index: 0;
       }
 
       @media (max-width: 1143px) {
@@ -65,12 +76,12 @@
         height: 400px;
         @include bgSettings();
         background-image: url("../assets/image/DSC02044.jpg");
-        background-position: 30% 0;
         @media (max-width: 600px) {
           width: 260px;
           height: 360px;
           transition: .5s;
         }
+
         &::before {
           content: "";
           position: absolute;

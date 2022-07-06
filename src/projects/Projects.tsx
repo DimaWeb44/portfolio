@@ -6,6 +6,7 @@ import Title from '../common/components/title/Title';
 import img from '../assets/image/look.com.ua-200911.jpg'
 import img2 from '../assets/image/look.com.ua-191288.jpg'
 
+const Fade = require("react-reveal/Fade");
 
 
 function Projects() {
@@ -19,16 +20,23 @@ function Projects() {
     };
 
     return (
-        <div className={style.projectsBlock}>
-            <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <Title title={'My Projects'}/>
-                <div className={style.projects}>
-                    <Project style={socialNetworkStyle} title={'Social network'} description={'Lorem Ipsum is simply dummy text of the printing ' +
-                    'and typesetting industrys standard'}/>
-                    <Project style={todolistStyle} title={'Todolist'} description={'Lorem Ipsum is simply dummy text of the printing ' +
-                    'and typesetting industry.'}/>
-                </div>
+        <div id="projects" className={style.projectsBlock}>
+            <div className={style.projectsContainer}>
+                <Fade left>
+                    <Title title={'My Projects'}/>
+                </Fade>
+                <Fade right>
+                    <div className={style.projects}>
+                        <Project style={socialNetworkStyle} title={'Social network'}
+                                 description={'Lorem Ipsum is simply dummy text of the printing ' +
+                                 'and typesetting industrys standard'}/>
+                        <Project style={todolistStyle} title={'Todolist'}
+                                 description={'Lorem Ipsum is simply dummy text of the printing ' +
+                                 'and typesetting industry.'}/>
+                    </div>
+                </Fade>
             </div>
+
         </div>
     );
 }

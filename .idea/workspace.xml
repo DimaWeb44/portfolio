@@ -4,26 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade3">
-      <change afterPath="$PROJECT_DIR$/src/assets/image/DSC02044.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/styles/sass/mixins.scss" afterDir="false" />
+    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/Container.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/sass/wariables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/sass/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/DSC02044.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/image/DSC02044.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Form.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="SCSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/styles/sass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -108,9 +111,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.deploy" />
         <item itemvalue="npm.predeploy" />
       </list>
@@ -133,7 +147,11 @@
       <workItem from="1651949823880" duration="1623000" />
       <workItem from="1653323665712" duration="882000" />
       <workItem from="1653410606253" duration="81000" />
-      <workItem from="1656601187433" duration="22694000" />
+      <workItem from="1656601187433" duration="23280000" />
+      <workItem from="1656649823313" duration="9058000" />
+      <workItem from="1656660960424" duration="9499000" />
+      <workItem from="1657089427530" duration="10171000" />
+      <workItem from="1657100186976" duration="26202000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646332300520</created>
@@ -191,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651780558121</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="upgrade4">
+      <created>1656626681743</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656626681744</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +258,7 @@
     <MESSAGE value="upgrade" />
     <MESSAGE value="upgrade2" />
     <MESSAGE value="upgrade3" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade3" />
+    <MESSAGE value="upgrade4" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade4" />
   </component>
 </project>

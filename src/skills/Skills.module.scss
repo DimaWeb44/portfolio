@@ -1,0 +1,14 @@
+@import "src/common/styles/sass/variables.scss";
+@import "src/common/styles/sass/mixins.scss";
+
+.skillsBlock {
+    padding: 100px;
+.skillsContainer{
+    @include container();
+    @include flex(column, flex-start, center, nowrap);
+    .skills {
+        @include flex(initial, space-between, center, wrap);
+        width: 100%;
+    }
+}
+}

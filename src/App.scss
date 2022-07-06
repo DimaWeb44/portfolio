@@ -1,0 +1,19 @@
+@import "./common/styles/sass/variables";
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.App {
+    > div {
+        &:nth-child(n){
+            background-color: $bgSecondColor;
+        }
+        &:nth-child(2n){
+            background-color: $bgColor;
+        }
+    }
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+

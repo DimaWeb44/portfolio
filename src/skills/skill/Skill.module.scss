@@ -1,0 +1,34 @@
+@import "src/common/styles/sass/variables.scss";
+@import "src/common/styles/sass/mixins.scss";
+
+
+.skill {
+    @include flex(column, flex-start, center, nowrap);
+    width: 200px;
+    padding: 0 20px;
+    margin: 25px 0;
+    text-align: center;
+    background-color: $bgColor;
+    .icon {
+        margin: 20px;
+        width: 60px;
+        height: 60px;
+        color: $primaryColor;
+        font-size: 3.2rem;
+    }
+    .skillTitle{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font: 16px/1.2 'Josefin Sans', sans-serif;
+        margin-bottom: 20px;
+    }
+    .description {
+        line-height: 1.5;
+        font-size: 14px;
+    }
+}
+
+
+
+
+

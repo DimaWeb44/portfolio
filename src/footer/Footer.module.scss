@@ -22,8 +22,12 @@
                 border: 1px solid #4a4a4a;
                 border-radius: 50%;
                 &:hover {
-                    border: 1px solid $textColor;
-                    transition: all 0.3s ease-in-out 0s;
+                    border: 1px solid $primaryColor;
+                    transition: all 0.2s ease-in-out 0s;
+                    .icons{
+                        color: $primaryColor;
+                        transition: all 0.1s ease-in-out 0s;
+                    }
                 }
                 @media (max-width: 380px) {
                     width: 50px;
@@ -33,8 +37,9 @@
                     width: 100%;
                     height: 100%;
                     @include flex(row, center, center, nowrap);
-                    img{
-                        width: 60%;
+                    .icons{
+                        font-size: 1.8rem;
+                        color: $textColor;
                     }
                 }
             }

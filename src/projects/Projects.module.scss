@@ -1,20 +1,16 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins.scss";
 
 .projectsBlock {
-  background-color: $bgColor;
   padding: 100px;
 
   .projectsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
+    @include container();
+    @include flex(column, flex-start, center, nowrap);
 
     .projects {
+      @include flex(initial, space-between, flex-start, wrap);
       width: 100%;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      align-items: flex-start;
       @media (max-width: 1450px) {
         justify-content: space-around;
       }
