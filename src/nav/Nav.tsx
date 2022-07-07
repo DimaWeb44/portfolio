@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './Nav.module.scss';
+// @ts-ignore
 import {Link} from "react-scroll";
 
 

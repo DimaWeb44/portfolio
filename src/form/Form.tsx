@@ -15,7 +15,7 @@ function Form() {
                     <input type={"text"} placeholder={'Name'} className={style.formArea} required/>
                     <input type={"email"} placeholder={'email'} className={style.formArea}/>
                     <textarea placeholder={'Message'} className={style.messageArea}/>
-                    <button type="submit">Send message</button>
+                    <button  type="submit" className={style.buttonSubmit}>Send message</button>
                 </form>
                 </Fade>
             </div>

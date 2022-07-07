@@ -27,10 +27,10 @@ function Projects() {
                 </Fade>
                 <Fade right>
                     <div className={style.projects}>
-                        <Project style={socialNetworkStyle} title={'Social network'}
+                        <Project style={socialNetworkStyle} title={'Social network'} link={'https://github.com/DimaWeb44/social_network'}
                                  description={'Lorem Ipsum is simply dummy text of the printing ' +
                                  'and typesetting industrys standard'}/>
-                        <Project style={todolistStyle} title={'Todolist'}
+                        <Project style={todolistStyle} title={'Todolist'} link={'https://github.com/DimaWeb44/todolist'}
                                  description={'Lorem Ipsum is simply dummy text of the printing ' +
                                  'and typesetting industry.'}/>
                     </div>

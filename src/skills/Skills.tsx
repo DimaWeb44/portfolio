@@ -14,7 +14,7 @@ function Skills() {
     return (
         <div id="skills" className={style.skillsBlock}>
             <div className={style.skillsContainer}>
-                <Fade left>
+                <Fade left cascade>
                     <Title title={'Skills'}/>
                 </Fade>
                 <div className={style.skills}>

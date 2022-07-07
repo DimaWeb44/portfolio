@@ -86,7 +86,7 @@ function Main() {
                 detectRetina: true,
             }} />
             <div className={style.container}>
-                <Fade left>
+                <Fade left cascade>
                 <div className={style.greeting}>
                     <span>Hi There</span>
                     <span>I am <span>Dmitry Petukhov</span></span>
