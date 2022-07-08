@@ -10,27 +10,46 @@
   margin-top: 30px;
   background: $bgSecondColor;
 
-  .icon {
+  .image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    .img {
     width: 100%;
     height: 300px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    &::before {
-      position: absolute;
-      content: '';
-      background-color: black;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      opacity: 0.4;
-    }
+    transition: filter .4s linear, transform .4s linear;
+      &:hover {
+        filter: brightness(50%);
+        transform: scale(1.05);
+      }
+      &:hover~.imageTitle{
+        opacity: 1;
+      }
   }
+    .imageTitle{
+      color: $textColor;
+      position: absolute;
+      opacity: 0;
+      transition:  .3s linear;
+      text-decoration: none;
+      &:hover{
+        opacity: 1;
+      }
+      &:hover + .img{
+        filter: brightness(50%);
+        transform: scale(1.05);
+      }
+    }
+
+  }
+
 
   .projectInfo {
     padding: 25px 20px;
@@ -56,7 +75,41 @@
 
 
 
+/*
 
+
+.image {
+  overflow: hidden;
+  position: relative;
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    transition: filter .4s linear, transform .4s linear;
+    &:hover{
+      filter: brightness(50%);
+      transform: scale(1.05);
+    }
+  }
+  .imageTitle{
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 40%; left: 0; bottom: 0; right: 0;
+    opacity: 1;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    color: $textColor;
+    &:hover{
+      opacity: 1;
+    }
+  }
+}
+*/
 
 
 
