@@ -25,7 +25,7 @@ function Projects() {
                 <Fade bottom>
                     <Title title={'My Projects'}/>
                 </Fade>
-                <Fade bottom>
+                <Fade bottom >
                     <div className={style.projects}>
                         <Project style={socialNetworkStyle} title={'Social network'}
                                  link={'https://github.com/DimaWeb44/social_network'}

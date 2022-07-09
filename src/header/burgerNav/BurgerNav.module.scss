@@ -15,7 +15,7 @@
     @include flex(column, space-between, center, nowrap);
     background-color: $bgSecondColor;
     transform: translate(0, -150px);
-    transition: 0.7s;
+
 
     a {
       @include text($TextFontFamily, 14px, 1.2, 300);
@@ -36,6 +36,7 @@
   .show {
     transform: translate(0, 0);
     height: 150px;
+    transition: 0.7s;
   }
 
   .burgerBtn {
