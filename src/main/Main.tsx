@@ -23,10 +23,6 @@ function Main() {
                 fullScreen: {enable: false, zIndex: -1},
                 interactivity: {
                     events: {
-                        onClick: {
-                            enable: true,
-                            mode: "push",
-                        },
                         onHover: {
                             enable: true,
                             mode: "repulse",
@@ -87,14 +83,14 @@ function Main() {
                 detectRetina: true,
             }}/>
             <div className={style.container}>
-                <Fade left cascade>
+                <Fade bottom cascade>
                     <div className={style.greeting}>
                         <span>Hi There</span>
                         <span>I am <span>Dmitry Petukhov</span></span>
                         <h1>Frontend Developer</h1>
                     </div>
                 </Fade>
-                <Fade right>
+                <Fade bottom>
                     <Tilt tiltReverse={true}>
                         <div className={style.photo}>
                             <div className={style.image}></div>

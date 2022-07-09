@@ -14,11 +14,11 @@ function Skills() {
     return (
         <div id="skills" className={style.skillsBlock}>
             <div className={style.skillsContainer}>
-                <Fade left cascade>
+                <Fade bottom cascade>
                     <Title title={'Skills'}/>
                 </Fade>
                 <div className={style.skills}>
-                    <Fade right>
+                    <Fade bottom>
                         <Skill title={'React'} skill={<SiReact/>}/>
                         <Skill title={'Redux'} skill={<SiRedux/>}/>
                         <Skill title={'TypeScript'} skill={<SiTypescript/>}/>

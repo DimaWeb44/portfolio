@@ -9,10 +9,11 @@
     @include flex(column, flex-start, center, nowrap);
 
     .skills {
+
       @include flex(initial, space-between, center, wrap);
       width: 100%;
       @media (max-width: 442px) {
-        @include flex(initial, center, center, wrap);
+        @include flex(initial, space-around, center, wrap);
       }
     }
   }

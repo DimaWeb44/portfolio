@@ -9,13 +9,17 @@
   margin: 25px 0;
   text-align: center;
   background-color: $bgColor;
-
   .icon {
     margin: 20px;
     width: 60px;
     height: 60px;
     color: $primaryColor;
     font-size: 3.2rem;
+    @media (max-width: 450px) {
+      font-size: 2.2rem;
+      width: 30px;
+      height: 30px;
+    }
   }
 
   .skillTitle {
@@ -23,6 +27,9 @@
     letter-spacing: 1px;
     font: 16px/1.2 'Josefin Sans', sans-serif;
     margin-bottom: 20px;
+    @media (max-width: 450px) {
+      font-size: 12px
+    }
   }
 
   @media (max-width: 967px) {
@@ -30,6 +37,10 @@
   }
   @media (max-width: 837px) {
     margin: 10px 0;
+  }
+  @media (max-width: 450px) {
+    padding: 0;
+    width: 110px;
   }
 }
 

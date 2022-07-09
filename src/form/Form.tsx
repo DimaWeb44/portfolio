@@ -24,10 +24,10 @@ function Form() {
     return (
         <div id="form" className={style.formBlock}>
             <div className={style.formContainer}>
-                <Fade right>
+                <Fade bottom>
                     <Title title="Contact"/>
                 </Fade>
-                <Fade left cascade>
+                <Fade bottom cascade>
                     <form onSubmit={sendEmail} className={style.form}>
                         <input name="from_name" type={"text"} placeholder={'Name'} className={style.formArea} required/>
                         <input name="from_email" type={"email"} placeholder={'email'} className={style.formArea}/>

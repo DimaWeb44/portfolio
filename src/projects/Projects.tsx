@@ -22,10 +22,10 @@ function Projects() {
     return (
         <div id="projects" className={style.projectsBlock}>
             <div className={style.projectsContainer}>
-                <Fade left>
+                <Fade bottom>
                     <Title title={'My Projects'}/>
                 </Fade>
-                <Fade right>
+                <Fade bottom>
                     <div className={style.projects}>
                         <Project style={socialNetworkStyle} title={'Social network'}
                                  link={'https://github.com/DimaWeb44/social_network'}
