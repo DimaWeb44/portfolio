@@ -10,7 +10,7 @@
     @include flex(column, center, center, nowrap);
     padding: 100px 0 20px;
     @media (max-width: 854px) {
-      padding: 50px 0 20px;
+      padding: 100px 0 20px;
     }
 
     .socialNetworks {

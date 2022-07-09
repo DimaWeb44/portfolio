@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade9">
+    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,7 @@
       <workItem from="1657143159923" duration="494000" />
       <workItem from="1657174348889" duration="15759000" />
       <workItem from="1657261734816" duration="21108000" />
-      <workItem from="1657348241087" duration="33727000" />
+      <workItem from="1657348241087" duration="34862000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646332300520</created>
@@ -252,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657393544515</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="upgrade10">
+      <created>1657395927431</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657395927432</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +308,7 @@
     <MESSAGE value="upgrade7" />
     <MESSAGE value="upgrade8" />
     <MESSAGE value="upgrade9" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade9" />
+    <MESSAGE value="upgrade10" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade10" />
   </component>
 </project>

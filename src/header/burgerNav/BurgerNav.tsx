@@ -20,7 +20,7 @@ function BurgerNav() {
                     to="main"
                     spy={true}
                     smooth={true}
-                    offset={-30}
+                    offset={0}
                     duration={500}
                 >Main</Link>
                 <Link
@@ -29,7 +29,7 @@ function BurgerNav() {
                     to="skills"
                     spy={true}
                     smooth={true}
-                    offset={-30}
+                    offset={0}
                     duration={500}
                 >Skills</Link>
                 <Link
@@ -38,7 +38,7 @@ function BurgerNav() {
                     to="projects"
                     spy={true}
                     smooth={true}
-                    offset={-30}
+                    offset={0}
                     duration={500}
                 >Projects</Link>
                 <Link
@@ -47,7 +47,7 @@ function BurgerNav() {
                     to="form"
                     spy={true}
                     smooth={true}
-                    offset={-30}
+                    offset={0}
                     duration={500}
                 >Contact</Link>
             </div>
