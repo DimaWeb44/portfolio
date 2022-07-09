@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade6">
+    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade7">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/TODOLIST.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header/nav/Nav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/look.com.ua-191288.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/look.com.ua-200911.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="SCSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/footer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -58,11 +80,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it-incubator\portfolio\src\footer" />
       <recent name="D:\it-incubator\portfolio\src\common\styles\sass" />
       <recent name="D:\it-incubator\portfolio\src\common\components\title" />
-      <recent name="D:\it-incubator\portfolio\src\footer" />
       <recent name="D:\it-incubator\portfolio\src\form" />
       <recent name="D:\it-incubator\portfolio\src\projects\project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\it-incubator\portfolio\src\header" />
+      <recent name="D:\it-incubator\portfolio\src\footer" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -139,7 +165,8 @@
       <workItem from="1657100186976" duration="27069000" />
       <workItem from="1657143159923" duration="494000" />
       <workItem from="1657174348889" duration="15759000" />
-      <workItem from="1657261734816" duration="17943000" />
+      <workItem from="1657261734816" duration="21108000" />
+      <workItem from="1657348241087" duration="18662000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646332300520</created>
@@ -218,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657234746981</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="upgrade7">
+      <created>1657317064760</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657317064760</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +297,7 @@
     <MESSAGE value="upgrade4" />
     <MESSAGE value="upgrade5" />
     <MESSAGE value="upgrade6" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade6" />
+    <MESSAGE value="upgrade7" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade7" />
   </component>
 </project>

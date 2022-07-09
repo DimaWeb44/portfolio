@@ -1,11 +1,12 @@
 @import "../common/styles/sass/variables.scss";
 @import "../common/styles/sass/mixins.scss";
 
-.header{
-    position: fixed;
-    z-index: 2;
-    padding-right: 50px;
-    width: 100%;
-    height: 70px;
-    @include flex(row, flex-end, center, nowrap);
+.header {
+  position: fixed;
+  z-index: 2;
+  padding-right: 50px;
+  width: 100%;
+  height: 70px;
+  opacity: 0.9;
+  @include flex(row, flex-end, center, nowrap);
 }

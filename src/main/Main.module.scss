@@ -6,7 +6,8 @@
   min-height: 100vh;
   @include flex(row, center, center, nowrap);
   padding: 100px 0;
-  .tsparticles{
+
+  .tsparticles {
     height: 100vh;
     position: absolute;
     left: 0;
@@ -15,6 +16,7 @@
     padding: 0;
     z-index: 0;
   }
+
   .container {
     @include container();
     @include flex(row, space-around, center, wrap);
@@ -26,6 +28,7 @@
         font-size: 16px;
         color: $textColor;
         z-index: 0;
+
         &:nth-child(2) {
           @include text($TitleFontFamily, 50px, 1.2, 700);
           letter-spacing: 5px;
@@ -46,6 +49,9 @@
               bottom: 0;
               z-index: -1;
               background-color: $primaryColor;
+              @media (max-width: 609px) {
+                width: 260px;
+              }
             }
           }
         }
@@ -56,18 +62,12 @@
         margin: 0;
         z-index: 0;
       }
-
-      @media (max-width: 1143px) {
-        .mainBlock {
-          align-items: center;
-        }
-      }
     }
 
     .photo {
       position: relative;
       z-index: 1;
-      @media (max-width: 1170px) {
+      @media (max-width: 1152px) {
         margin-top: 50px;
       }
 

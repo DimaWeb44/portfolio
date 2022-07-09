@@ -12,7 +12,7 @@ function Footer() {
     return (
         <div className={style.footerBlock}>
             <div className={style.footerContainer}>
-                <Fade right> <Title title="Dmitry Petukhov"/> </Fade>
+                <Fade right> < Title className={style.title} title="Dmitry Petukhov"/> </Fade>
                 <Fade left cascade>
                     <div className={style.socialNetworks}>
                         <div className={style.socialNetworkIcon}>

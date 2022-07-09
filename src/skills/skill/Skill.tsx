@@ -4,11 +4,11 @@ import Tilt from 'react-parallax-tilt';
 
 function Skill(props: any) {
     return (
-        <Tilt >
-        <div className={style.skill}>
-            <div className={style.icon}>{props.skill}</div>
-            <h3 className={style.skillTitle}>{props.title}</h3>
-        </div>
+        <Tilt>
+            <div className={style.skill}>
+                <div className={style.icon}>{props.skill}</div>
+                <h3 className={style.skillTitle}>{props.title}</h3>
+            </div>
         </Tilt>
     );
 }

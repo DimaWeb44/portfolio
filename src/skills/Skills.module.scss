@@ -2,13 +2,22 @@
 @import "src/common/styles/sass/mixins.scss";
 
 .skillsBlock {
-    padding: 100px;
-.skillsContainer{
+  padding: 100px;
+
+  .skillsContainer {
     @include container();
     @include flex(column, flex-start, center, nowrap);
+
     .skills {
-        @include flex(initial, space-between, center, wrap);
-        width: 100%;
+      @include flex(initial, space-between, center, wrap);
+      width: 100%;
+      @media (max-width: 442px) {
+        @include flex(initial, center, center, wrap);
+      }
     }
-}
+  }
+
+  @media (max-width: 854px) {
+    padding: 50px 0 50px 0;
+  }
 }

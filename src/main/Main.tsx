@@ -3,6 +3,7 @@ import style from './Main.module.scss';
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
 import Tilt from 'react-parallax-tilt';
+
 const Fade = require("react-reveal/Fade");
 const particlesInit = async (main: any) => {
     await loadFull(main);
@@ -19,7 +20,7 @@ function Main() {
                     },
                 },
                 fpsLimit: 120,
-                fullScreen: { enable: false, zIndex: -1},
+                fullScreen: {enable: false, zIndex: -1},
                 interactivity: {
                     events: {
                         onClick: {
@@ -69,7 +70,7 @@ function Main() {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            area: 600,
                         },
                         value: 80,
                     },
@@ -84,22 +85,22 @@ function Main() {
                     },
                 },
                 detectRetina: true,
-            }} />
+            }}/>
             <div className={style.container}>
                 <Fade left cascade>
-                <div className={style.greeting}>
-                    <span>Hi There</span>
-                    <span>I am <span>Dmitry Petukhov</span></span>
-                    <h1>Frontend Developer</h1>
-                </div>
+                    <div className={style.greeting}>
+                        <span>Hi There</span>
+                        <span>I am <span>Dmitry Petukhov</span></span>
+                        <h1>Frontend Developer</h1>
+                    </div>
                 </Fade>
                 <Fade right>
-                <Tilt tiltReverse={true}>
-                    <div className={style.photo}>
-                        <div className={style.image}></div>
-                    </div>
-                </Tilt>
-                    </Fade>
+                    <Tilt tiltReverse={true}>
+                        <div className={style.photo}>
+                            <div className={style.image}></div>
+                        </div>
+                    </Tilt>
+                </Fade>
             </div>
         </div>
     );

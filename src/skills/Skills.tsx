@@ -19,18 +19,18 @@ function Skills() {
                 </Fade>
                 <div className={style.skills}>
                     <Fade right>
-                            <Skill title={'React'} skill={<SiReact/>}/>
-                            <Skill title={'Redux'} skill={<SiRedux/>}/>
-                            <Skill title={'TypeScript'} skill={<SiTypescript/>}/>
-                            <Skill title={'JavaScript'} skill={<SiJavascript/>}/>
-                            <Skill title={'HTML'} skill={<SiHtml5/>}/>
-                            <Skill title={'CSS'} skill={<SiCss3/>}/>
-                            <Skill title={'REST API'} skill={<SiDiagramsdotnet/>}/>
-                            <Skill title={'Unit testing'} skill={<SiSpeedtest/>}/>
-                            <Skill title={'StoryBook'} skill={<SiStorybook/>}/>
-                            <Skill title={'Postman'} skill={<SiPostman/>}/>
-                            <Skill title={'Material-UI'} skill={<SiMaterialui/>}/>
-                            <Skill title={'Git'} skill={<SiGit/>}/>
+                        <Skill title={'React'} skill={<SiReact/>}/>
+                        <Skill title={'Redux'} skill={<SiRedux/>}/>
+                        <Skill title={'TypeScript'} skill={<SiTypescript/>}/>
+                        <Skill title={'JavaScript'} skill={<SiJavascript/>}/>
+                        <Skill title={'HTML'} skill={<SiHtml5/>}/>
+                        <Skill title={'CSS'} skill={<SiCss3/>}/>
+                        <Skill title={'REST API'} skill={<SiDiagramsdotnet/>}/>
+                        <Skill title={'Unit testing'} skill={<SiSpeedtest/>}/>
+                        <Skill title={'StoryBook'} skill={<SiStorybook/>}/>
+                        <Skill title={'Postman'} skill={<SiPostman/>}/>
+                        <Skill title={'Material-UI'} skill={<SiMaterialui/>}/>
+                        <Skill title={'Git'} skill={<SiGit/>}/>
                     </Fade>
                 </div>
             </div>
