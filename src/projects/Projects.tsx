@@ -29,11 +29,9 @@ function Projects() {
                     <div className={style.projects}>
                         <Project style={socialNetworkStyle} title={'Social network'}
                                  link={'https://github.com/DimaWeb44/social_network'}
-                                 description={'Lorem Ipsum is simply dummy text of the printing ' +
-                                 'and typesetting industrys standard'}/>
+                                 description={'Stack: TypeScript, React, Redux, Redux-Thunk, React-Router-dom, Axios, Formik; Bug fixing, deployin.'}/>
                         <Project style={todolistStyle} title={'Todolist'} link={'https://github.com/DimaWeb44/todolist'}
-                                 description={'Lorem Ipsum is simply dummy text of the printing ' +
-                                 'and typesetting industry.'}/>
+                                 description={'Stack: TypeScript, React, Redux Toolkit, Redux-thunk, Router-dom, Axios, Mui, Formik, Storybook; Bug fixing, deployin; Covering code with unit tests.'}/>
                     </div>
                 </Fade>
             </div>

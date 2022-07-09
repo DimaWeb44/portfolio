@@ -4,33 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade7">
-      <change afterPath="$PROJECT_DIR$/src/assets/image/TODOLIST.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/header/nav/Nav.tsx" afterDir="false" />
+    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade8">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/SOCIAL_NETWORK.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/look.com.ua-191288.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/image/look.com.ua-200911.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/title/Title.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/nav/Nav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projects/project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +149,7 @@
       <workItem from="1657143159923" duration="494000" />
       <workItem from="1657174348889" duration="15759000" />
       <workItem from="1657261734816" duration="21108000" />
-      <workItem from="1657348241087" duration="18662000" />
+      <workItem from="1657348241087" duration="27030000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646332300520</created>
@@ -252,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657317064760</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="upgrade8">
+      <created>1657375555826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657375555826</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +288,7 @@
     <MESSAGE value="upgrade5" />
     <MESSAGE value="upgrade6" />
     <MESSAGE value="upgrade7" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade7" />
+    <MESSAGE value="upgrade8" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade8" />
   </component>
 </project>

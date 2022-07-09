@@ -9,7 +9,6 @@ function Project(props: any) {
                 <a href={props.link} style={props.style} className={style.img}></a>
                 <a href={props.link} className={style.imageTitle}>DEMO</a>
             </div>
-
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle}>{props.title}</h3>
                 <span className={style.description}>{props.description}</span>
