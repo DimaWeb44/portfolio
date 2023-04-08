@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade10">
+    <list default="true" id="2e45641f-69f8-4f47-9d54-2a461b7b409a" name="Changes" comment="upgrade11">
+      <change afterPath="$PROJECT_DIR$/src/assets/image/Art-lichnost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/image/ananas.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form/Form.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/form/Form.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/burgerNav/BurgerNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/Projects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/Skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="SCSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/footer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rankUp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,7 +74,7 @@
       <recent name="D:\it-incubator\portfolio\src\footer" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -114,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.predeploy" />
       </list>
@@ -146,7 +149,20 @@
       <workItem from="1657143159923" duration="494000" />
       <workItem from="1657174348889" duration="15759000" />
       <workItem from="1657261734816" duration="21108000" />
-      <workItem from="1657348241087" duration="34862000" />
+      <workItem from="1657348241087" duration="35863000" />
+      <workItem from="1657533650934" duration="798000" />
+      <workItem from="1658160891548" duration="2626000" />
+      <workItem from="1659879231150" duration="460000" />
+      <workItem from="1659879710762" duration="597000" />
+      <workItem from="1659942943911" duration="144000" />
+      <workItem from="1661373546885" duration="985000" />
+      <workItem from="1661411318299" duration="1758000" />
+      <workItem from="1666292241881" duration="1802000" />
+      <workItem from="1666992455605" duration="3407000" />
+      <workItem from="1667042771103" duration="6301000" />
+      <workItem from="1677081818754" duration="2149000" />
+      <workItem from="1677855347730" duration="681000" />
+      <workItem from="1680976187188" duration="8895000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646332300520</created>
@@ -260,7 +276,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657395927432</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="upgrade10">
+      <created>1657397259521</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657397259521</updated>
+    </task>
+    <task id="LOCAL-00018" summary="upgrade11">
+      <created>1659879828538</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659879828538</updated>
+    </task>
+    <task id="LOCAL-00019" summary="upgrade11">
+      <created>1659879859840</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659879859840</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +346,7 @@
     <MESSAGE value="upgrade8" />
     <MESSAGE value="upgrade9" />
     <MESSAGE value="upgrade10" />
-    <option name="LAST_COMMIT_MESSAGE" value="upgrade10" />
+    <MESSAGE value="upgrade11" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade11" />
   </component>
 </project>
